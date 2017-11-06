@@ -1,0 +1,38 @@
+ship "Battleship" "Battleship (Mark II)"
+	outfits
+		Hyperdrive
+		"A860 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Electron Turret" 6
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 209
+		"Liquid Helium Cooler"
+		"LP288a Battery Pack"
+		"D23-QP Shield Generator"
+		"Heavy Anti-Missile Turret" 4
+		"Fragmentation Grenades" 65
+		"Armageddon Core"
+		"Typhoon Launcher" 2
+		"Typhoon Torpedo" 90
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile Rack" 2
+		"Sidewinder Missile" 150
+		"Typhoon Storage Tube" 2
+	position -53.763571 -350.02229
+	engine -38 220 1
+	engine 38 220 1
+	gun -31 -200 "Sidewinder Missile Launcher"
+	gun 31 -200 "Typhoon Launcher"
+	gun -22 -209 "Typhoon Launcher"
+	gun 22 -209 "Sidewinder Missile Launcher"
+	turret 0 -104 "Heavy Anti-Missile Turret"
+	turret 0 27 "Heavy Anti-Missile Turret"
+	turret 45 23 "Electron Turret"
+	turret -45 23 "Electron Turret"
+	turret -13 153 "Heavy Anti-Missile Turret"
+	turret 13 153 "Heavy Anti-Missile Turret"
+	turret -48 -64 "Electron Turret"
+	turret -48 111 "Electron Turret"
+	turret 48 -64 "Electron Turret"
+	turret 48 111 "Electron Turret"

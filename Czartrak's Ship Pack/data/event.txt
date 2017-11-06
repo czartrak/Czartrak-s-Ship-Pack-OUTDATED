@@ -1,0 +1,14 @@
+event "navy using mark ii ships"
+	fleet "Large Republic"
+		add variant 10
+			"Viscount (Mark II)"
+			"Lance" 2
+			"Carrier (Mark II)" 2
+			"Lance" 8
+			"Combat Drone" 12
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+			"Frigate (Mark II)" 4
+			"Rainmaker (Mark II)" 3
+			"Gunboat (Mark II)" 3
+	

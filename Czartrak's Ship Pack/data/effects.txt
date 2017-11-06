@@ -1,0 +1,14 @@
+effect "final explosion battleship"
+	sound "final explosion large"
+	
+effect "battleship explosion"
+	sprite "effect/explosion/battleship"
+		"no repeat"
+		"frame rate" 15
+	sound "explosion large"
+	"lifetime" 32
+	"random angle" 360
+	"random velocity" .8
+	"random spin" 4
+	"random frame rate" 5
+	"velocity scale" .4

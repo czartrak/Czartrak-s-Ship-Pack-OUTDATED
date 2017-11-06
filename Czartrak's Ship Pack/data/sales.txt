@@ -1,0 +1,8 @@
+
+shipyard "Navy Advanced"
+	"Viscount"
+	"Battleship"
+	"Navy Freighter"
+	
+shipyard "Navy Basic"
+	"Patrol Boat"

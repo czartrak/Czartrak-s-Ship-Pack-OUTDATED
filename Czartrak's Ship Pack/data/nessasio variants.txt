@@ -1,0 +1,17 @@
+ship "Nessasio" "Nessasio Mark II"
+	outfits
+		"Outfits Expansion" 2
+		Hyperdrive
+		"A375 Atomic Steering"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"A120 Atomic Thruster"
+		"Electron Beam" 6
+		"Electron Turret"
+		"Fuel Pod" 2
+		"Fusion Reactor"
+		Ramscoop
+		"D67-TM Shield Generator"
+		"Liquid Helium Cooler"
+		"Water Coolant System"
+		"LP072a Battery Pack"

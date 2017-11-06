@@ -1,0 +1,84 @@
+event "navy using mark ii ships"
+	fleet "Large Republic"
+		add variant 3
+			"Carrier (Mark II)"
+			"Lance" 4
+			"Combat Drone" 6
+			"Cruiser (Mark II)"
+			"Combat Drone" 4
+			"Frigate (Mark II)" 2
+			"Rainmaker (Mark II)" 2
+			"Gunboat (Mark II)" 2
+			"Battleship (Mark II)"
+		add variant 5
+			"Nessasio Mark II"
+
+event "southern carriers 1"
+	shipyard "Southbound Advanced"
+		"Nest"
+		"Nest D"
+	outfitter "Syndicate Advanced"
+		"X1050 Ion Engines"
+	fleet "Small Free Worlds"
+		fighters "free worlds fighters"
+		add variant 1
+			"Nest D"
+			"Bee" 2
+		add variant 1
+			"Nest D"
+			"Mockingjay" 2
+
+	fleet "Small Independent"
+		fighters "free worlds fighter"
+		add variant 1
+			"Nest D"
+			"Bee" 2
+
+event "southern carriers 3"
+	shipyard "Tarazed Basics"
+		"Bee"
+		"Mockingjay"
+	shipyard "Tarazed Advanced"
+		"Nest D"
+		"Roost D"
+		"Skein D"
+	fleet "Large Free Worlds"
+		drones "free worlds fighters"
+		add variant 2
+			"Roost D"
+			"Bee" 4
+		add variant 2
+			"Skein D"
+			"Bee" 6
+		add variant 1
+			"Roost D" 
+			"Mockingjay" 4
+		add variant 1
+			"Skein d" 2
+			"Bee" 12
+		add variant 1
+			"Skein D"
+			"Mockingjay" 6
+
+	fleet "Small Southern Pirates"
+		add variant 1
+			"Nest D"
+			"Bee" 2
+
+event "southern carriers 4"
+	fleet "Large Independent"
+		fighters "free worlds fighter"
+		add variant 2
+			"Roost D"
+			"Bee" 4
+	
+	fleet "Small Northern Pirates"
+		add variant 1
+			"Nest"
+			"Lance" 2
+
+	fleet "Large Northern Pirates"
+		add variant 1
+			"Roost D"
+			"Bee" 4
+	

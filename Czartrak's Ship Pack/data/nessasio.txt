@@ -1,0 +1,64 @@
+
+
+ship "Nessasio"
+	sprite "ship/navycorvette"
+	attributes
+		category "Medium Warship"
+		licenses
+			Navy
+		"cost" 6100000
+		"shields" 9600
+		"hull" 2400
+		"required crew" 26
+		"bunks" 59
+		"mass" 346
+		"drag" 5.2
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 55
+		"outfit space" 530
+		"weapon capacity" 180
+		"engine capacity" 152
+		"cloak" .03
+		"cloaking energy" 10
+		"cloaking fuel" .3
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		
+		"Outfits Expansion"
+		Hyperdrive
+		"X3700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"X4200 Ion Steering"
+		"LP144a Battery Pack"
+		Torpedo 90
+		"Torpedo Launcher" 2
+		"Heavy Laser Turret"
+		"Liquid Helium Cooler"
+		"D67-TM Shield Generator"
+		"Fission Reactor"
+		"Torpedo Storage Rack" 2
+		"KP-6 Photovoltaic Panel" 5
+		"Heavy Laser" 4
+	gun 20 -102
+	gun -28 -101.5
+	gun 10 -121.5
+	gun -18 -119.5
+	gun 4.5 -140
+	gun -12.5 -140
+	turret -4 -32
+	engine 15.5 134.5
+	engine -22 134.5
+	drone -63 58.5
+	drone 54 57
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "Because of the Navy Intelligence's need for a stealth craft that could hold its own until help arrived they had these ships specially made, however, this ship's cloaking capabilities are far from perfected as it uses cameras and projectors to seemingly disappear"

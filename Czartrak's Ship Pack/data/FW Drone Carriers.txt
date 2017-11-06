@@ -1,0 +1,169 @@
+ship "Nest D"
+	sprite "ship/nest"
+	attributes
+		category "Medium Warship"
+		"cost" 2500000
+		"shields" 2500
+		"hull" 3700
+		"required crew" 5
+		"bunks" 14
+		"mass" 250
+		"drag" 10.5
+		"heat dissipation" .67
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 400
+		"weapon capacity" 140
+		"engine capacity" 80
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator" 2
+		"Large Radar Jammer"
+		
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		
+	engine -45 122
+	engine 45 122
+	gun -15 -91
+	gun 15 -91
+	turret -26 -50 "Quad Blaster Turret"
+	turret 26 -50 "Heavy Anti-Missile Turret"
+	turret -18 75 "Heavy Anti-Missile Turret"
+	turret 18 75 "Quad Blaster Turret"
+	drone -47 12 under
+	drone 47 12 under
+	explode "tiny explosion" 20
+	explode "small explosion" 35
+	explode "medium explosion" 20
+	explode "large explosion" 5
+	"final explode" "final explosion medium"
+	description `With large volumes of easily captured drones left disabled after battles with the Navy, the Free Worlds realized that the re-use of these drones would be best. It was a simple modification of the docking arms to allow drones to dock with these ships. Not all the drones are Navy though. along with these ships, Southbound Shipyards also creates new drones, Bees and Mockingjays.`
+	
+ship "Roost D"
+	sprite "ship/roost"
+	attributes
+		category "Medium Warship"
+		"cost" 3000000
+		"shields" 2900
+		"hull" 5200
+		"required crew" 7
+		"bunks" 16
+		"mass" 360
+		"drag" 11.5
+		"heat dissipation" .67
+		"fuel capacity" 600
+		"cargo space" 80
+		"outfit space" 450
+		"weapon capacity" 140
+		"engine capacity" 80
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator" 4
+		"Large Radar Jammer"
+		
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		
+	engine -45 159
+	engine 45 159
+	gun -15 -128
+	gun 15 -128
+	turret -26 -85 "Quad Blaster Turret"
+	turret 26 -85 "Heavy Anti-Missile Turret"
+	turret -18 114 "Heavy Anti-Missile Turret"
+	turret 18 114 "Quad Blaster Turret"
+	drone -47 -24 under
+	drone 47 -24 under
+	drone -47 50 under
+	drone 47 50 under
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 15
+	"final explode" "final explosion medium"
+	description `A great counterpart to the Roost, the Roost D is capable of carrying 4 drones.`
+	
+ship "Skein D"
+	sprite "ship/skein"
+	licenses
+		"Militia Carrier"
+	attributes
+		category "Medium Warship"
+		"cost" 3500000
+		"shields" 3300
+		"hull" 6700
+		"required crew" 7
+		"bunks" 18
+		"mass" 470
+		"drag" 12.5
+		"heat dissipation" .71
+		"fuel capacity" 700
+		"cargo space" 120
+		"outfit space" 500
+		"weapon capacity" 140
+		"engine capacity" 80
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator" 4
+		"Large Radar Jammer"
+		
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		
+	engine -45 197
+	engine 45 197
+	gun -15 -165
+	gun 15 -165
+	turret -26 -123 "Quad Blaster Turret"
+	turret 26 -123 "Heavy Anti-Missile Turret"
+	turret -18.5 154 "Heavy Anti-Missile Turret"
+	turret 18.5 154 "Quad Blaster Turret"
+	drone -47 -61 under
+	drone 47 -61 under
+	drone -47 14 under
+	drone 47 14 under
+	drone -47 88 under
+	drone 47 88 under
+	explode "small explosion" 15
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description `This ship has the ability to carry as many drones as the largest Navy carriers. The Skein D is a great counterpart to the other Skeins, but is only available to select Free Worlds members.`

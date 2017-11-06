@@ -1,0 +1,127 @@
+fleet "Large Republic"
+	government "Republic"
+	names "republic capital"
+	fighters "republic fighter"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 1
+		"Carrier"
+		"Lance" 4
+		"Combat Drone" 6
+		"Cruiser"
+		"Combat Drone" 4
+		"Frigate" 2
+		"Rainmaker" 2
+		"Gunboat" 2
+		"Battleship"
+	variant 3
+		"Cruiser"
+		"Combat Drone" 4
+		"Frigate"
+		"Rainmaker"
+		"Navy Freighter" 2
+	variant 7
+		"Nessasio"
+		"Patrol Boat"2
+	variant 7
+		"Nessasio" 2
+		
+fleet "Large Syndicate"
+	government "Syndicate"
+	names "syndicate capital"
+	fighters "syndicate fighter"
+	cargo 2
+	personality
+		heroic
+	variant 1
+		"Vanguard"
+		"Sentinel"
+	variant 1
+		"Vanguard"
+		"Quicksilver (Proton)" 2
+		"Sentinel"
+	variant 2
+		"Sentinel" 2
+		
+fleet "Small Republic"
+	government "Republic"
+	names "republic small"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 5
+		"Gunboat"
+		"Rainmaker"
+		"Patrol Boat"
+	variant 4
+		"Frigate"
+		"Patrol Boat 2"
+	variant 6
+		"Gunboat"
+		"Patrol Boat"
+	variant 7
+		"Patrol Boat" 2
+	variant 7
+		"Patrol Boat"
+		"Rainmaker"
+		
+fleet "Republic Freight"
+	government "Republic"
+	names "republic capital"
+	cargo 4
+	personality
+		confusion 20
+		timid frugal appeasing
+	variant 1
+		"Frigate" 2
+		"Rainmaker" 2
+		"Gunboat" 2
+		"Navy Frieghter"
+	variant 3
+		"Cruiser"
+		"Combat Drone" 4
+		"Frigate"
+		"Rainmaker"
+		"Navy Freighter" 3
+	variant 2
+		"Gunboat" 2
+		"Navy Freighter"
+	variant 2
+		"Navy Freighter" 2
+		"Gunboat" 2
+		"Rainmaker"
+	variant 3
+		"Frigate" 3
+		"Gunboat" 3
+		"Rainmaker" 2
+		"Navy Freighter" 2
+		
+
+fleet "Large Oathkeeper"
+	variant 10
+		"Viscount"
+		"Lance" 2
+		"Carrier" 2
+		"Lance" 8
+		"Combat Drone" 12
+		"Cruiser"2
+		"Combat Drone" 8
+		"Frigate" 4
+		"Rainmaker" 6
+		"Gunboat" 4
+
+fleet "Large Republic"
+	variant 10
+		"Viscount"
+		"Lance" 2
+		"Carrier" 2
+		"Lance" 8
+		"Combat Drone" 12
+		"Cruiser"2
+		"Combat Drone" 8
+		"Frigate" 4
+		"Rainmaker" 6
+		"Gunboat" 4
+
+

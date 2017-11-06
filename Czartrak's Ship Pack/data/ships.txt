@@ -1,0 +1,324 @@
+ship "Battleship"
+	sprite "ship/battleship"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Navy
+			Carrier
+		"cost" 23000000
+		"shields" 25570
+		"hull" 9030
+		"required crew" 233
+		"bunks" 217
+		"mass" 1115
+		"drag" 18.4
+		"heat dissipation" .37
+		"fuel capacity" 800
+		"cargo space" 90
+		"outfit space" 1150
+		"weapon capacity" 560
+		"engine capacity" 230
+		weapon
+			"blast radius" 350
+			"shield damage" 3230
+			"hull damage" 1850
+			"hit force" 4700
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"Heavy Laser Turret" 6
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Water Coolant System" 2
+		
+		"X5700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -38 220
+	engine 38 220
+	gun -31 -200 "Torpedo Launcher"
+	gun 31 -200 "Torpedo Launcher"
+	gun -22 -209 "Torpedo Launcher"
+	gun 22 -209 "Torpedo Launcher"
+	turret 0 -104 "Heavy Anti-Missile Turret"
+	turret 0 27 "Heavy Anti-Missile Turret"
+	turret 45 23 "Heavy Laser Turret"
+	turret -45 23 "Heavy Laser Turret"
+	turret -13 153 "Heavy Anti-Missile Turret"
+	turret 13 153 "Heavy Anti-Missile Turret"
+	turret -48 -64 "Heavy Laser Turret"
+	turret -48 111 "Heavy Laser Turret"
+	turret 48 -64 "Heavy Laser Turret"
+	turret 48 111 "Heavy Laser Turret"
+	explode "tiny explosion" 25
+	explode "small explosion" 50
+	explode "medium explosion" 53
+	explode "large explosion" 47
+	explode "huge explosion" 12
+	"final explode" "final explosion large"
+	description "The Battleship is the biggest, baddest ship in the Navy fleet. This ship deviates from the standard Navy style of gun based ships, and is instead a turret based brawler. However, these ships are very expensive to make, so you will only see a few, and only in the largest Navy fleets."
+	
+ship "Battlecruiser"
+	sprite "ship/battlecruiser"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Navy
+			Cruiser
+		"cost" 15700000
+		"shields" 20000
+		"hull" 7400
+		"required crew" 134
+		"bunks" 153
+		"mass" 720
+		"drag" 13.4
+		"heat dissipation" .31
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 3000
+		"weapon capacity" 3000
+		"engine capacity" 3000
+		weapon
+			"blast radius" 270
+			"shield damage" 2950
+			"hull damage" 1500
+			"hit force" 4200
+	outfits
+		"Particle Cannon" 4
+		"Heavy Laser Turret" 5
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -29 156
+	engine 29 156
+	gun -31 -63 "Particle Cannon"
+	gun 31 -63 "Particle Cannon"
+	gun -41 -52 "Particle Cannon"
+	gun 41 -52 "Particle Cannon"
+	turret 0 -40 "Heavy Laser Turret"
+	turret -33 -19 "Heavy Laser Turret"
+	turret 33 -19 "Heavy Laser Turret"
+	turret 0 0 "Heavy Anti-Missile Turret"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The republic Battlecruiser is a newer ship design, based around turret power and less around guns."
+	
+ship "Destroyer"
+	sprite "ship/destroyer"
+	attributes
+		category "Medium Warship"
+		licenses
+			Navy
+		"cost" 6700000
+		"shields" 9200
+		"hull" 3500
+		"required crew" 34
+		"bunks" 52
+		"mass" 410
+		"drag" 5.7
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 3000
+		"weapon capacity" 3000
+		"engine capacity" 3000
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfit
+		"Torpedo Launcher" 4
+		"Torpedo" 60
+		"Heavy Laser Turret" 5
+		
+		"NT-200 Nucleovoltaic"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -26 92
+	engine 26 92
+	gun -10 -83 "Particle Cannon"
+	gun 10 -83 "Particle Cannon"
+	gun -10 -83 "Torpedo Launcher"
+	gun 10 -83 "Torpedo Launcher"
+	turret 0 -37 "Blaster Turret"
+	turret -12 -12 "Blaster Turret"
+	turret 12 -12 "Blaster Turret"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "The Destroyer is built to do the job the Frigate does, except much better. Equipped with 5 heavy laser turrets and 4 torpedo tubes, this ship can dish out some decent damage."
+	
+ship "Patrol Boat"
+	sprite "ship/patroller"
+	attributes
+		category "Light Warship"
+		cost 2700000
+		bunks 9
+		"cargo space" 30
+		drag 3.1
+		"engine capacity" 90
+		"fuel capacity" 596
+		"gun ports" 2
+		"heat dissipation" 0.8
+		hull 1400
+		mass 150
+		"outfit space" 250
+		"required crew" 4
+		shields 5800
+		"turret mounts" 1
+		"weapon capacity" 100
+	outfits
+		"D14-RN Shield Generator"
+		"Outfit Scanner" 2
+		"Cargo Scanner" 2
+		Ramscoop 2
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Scram Drive"
+		"Fuel Pod" 2
+		"LP144a Battery Pack"
+		"RT-I Radiothermal"
+		"Beam Laser" 2
+		
+	engine -9 45
+	engine 9 45
+	gun -24 -22 "Beam Laser"
+	gun 24 -22 "Beam Laser"
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "The Patrol Boat is a modified Navy Gunboat. It has been slimmed down, the original hull materials replaced with lighter (but weaker) ones, and the weapons scaled down considerably. This ship is made for speed, and for quick surveys of other ships."
+	
+ship "Sentinel"
+	sprite "ship/pointedstick_vanguard"
+		attributes
+			category "Heavy Warship"
+			"cost" 7200000
+			"shields" 10500
+			"hull" 7300
+			"required crew" 34
+			"bunks" 45
+			"mass" 500
+			"drag" 8
+			"heat dissipation" .6
+			"fuel capacity" 500
+			"cargo space" 50
+			"outfit space" 1000
+			"weapon capacity" 450
+			"engine capacity" 330
+			weapon
+				"blast radius" 160
+				"shield damage" 1600
+				"hull damage" 800
+				"hit force" 2400
+		outfits
+			"Proton Gun" 11
+			"Heavy Rocket Launcher" 4
+			"Heavy Rocket" 400
+			"Anti-Missile Turret"
+
+			"Armageddon Core" 2
+			"KP-6 Photovoltaic Array" 4
+			"LP072a Battery Pack"
+			"D67-TM Shield Generator" 2
+			"Liquid Helium Cooler" 2
+
+			"A860 Atomic Thruster"
+			"A865 Atomic Steering"
+			"Ionic Afterburner"
+			"Hyperdrive"
+
+		engine 0 130
+		engine -31 128 .7
+		engine 31 128 .7
+		gun 0 -132 "Proton Gun"
+		gun 0 -132 "Proton Gun"
+		gun 0 -132 "Proton Gun"
+		gun -22 -122 "Proton Gun"
+		gun -22 -122 "Proton Gun"
+		gun 22 -122 "Proton Gun"
+		gun 22 -122 "Proton Gun"
+		gun -21 -45 "Proton Gun"
+		gun -21 -45 "Proton Gun"
+		gun 21 -45 "Proton Gun"
+		gun 21 -45 "Proton Gun"
+		gun -31 -45 "Heavy Rocket Launcher"
+		gun -31 -45 "Heavy Rocket Launcher"
+		gun 31 -45 "Heavy Rocket Launcher"
+		gun 31 -45 "Heavy Rocket Launcher"
+		turret 0 40 "Anti-Missile Turret"
+		explode "tiny explosion" 18
+		explode "small explosion" 36
+		explode "medium explosion" 24
+		explode "large explosion" 8
+		"final explode" "final explosion large"
+		description "This ship is a modified Vanguard. The original ship was found floating in deep space, with damage that seemed to be inflicted by it's own heavy rockets. The only person inside was the body of someone holding a crudely sharpend stick."
+		
+ship "Navy Freighter"
+	sprite "ship/nfreighter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 12400000
+		"shields" 6230
+		"hull" 8200
+		"required crew" 12
+		"bunks" 20
+		"mass" 680
+		"drag" 15.8
+		"heat dissipation" .5
+		"fuel capacity" 700
+		"cargo space" 850
+		"outfit space" 230
+		"weapon capacity" 0
+		"engine capacity" 90
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Water Coolant System"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -29 164
+	engine 29 164
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Navy Freighter is a modified Cruiser, which has been made only to carry cargo. It has no weapons and carries no drones, so it relies completely on escorts for protection."
