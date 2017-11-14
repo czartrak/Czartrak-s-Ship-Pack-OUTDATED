@@ -9,11 +9,14 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 #Edit your own stuff in here:
+#This file is for WorldForge
+#If you don't have WorldForge, disregard this!
 
 shipyard modships
 	"Battleship"
-	"Patrol Boat"
 	"Battlecruiser"
 	"Destroyer"
 	"Navy Freighter"
 	"Sentinel"
+	"Nessasio"
+	"Viscount"

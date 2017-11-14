@@ -1,0 +1,182 @@
+#NOTE TO SELF!!!
+#Never EVER close this file! You don't know how to unhide!
+#P.S. if you somehow found this and are reading this RIGHT NOW, I was talking to myself. You may know how to unhide stuff.
+
+person "A Bird and a Brick"
+	government "Bird and Brick Association"
+	personality
+		plunders
+	phrase
+		word
+			"I hope you're enjoying the mod!"
+	ship Godzilla Godzilla
+	attributes
+		category "Heavy Warship"
+		"cost" 124000000
+		"shields" 127600
+		"hull" 103790
+		"required crew" 463
+		"bunks" 487
+		"mass" 910
+		"drag" 20.7
+		"heat dissipation" .2
+		"fuel capacity" 800
+		"cargo space" 650
+		"outfit space" 1900
+		"weapon capacity" 970
+		"engine capacity" 170
+		weapon
+			"blast radius" 250
+			"shield damage" 2400
+			"hull damage" 1200
+			"hit force" 2100
+	outfits
+		"Large Repair Module" 2
+		Hyperdrive
+		"Finisher Pod" 2
+		"Bombardment Turret"
+		"Finisher Torpedo" 80
+		"Ion Cannon" 2
+		"Hai Tracker Pod" 2
+		"Tracker Storage Pod" 4
+		"Hai Tracker" 224
+		"Large Heat Shunt"
+		"LP144a Battery Pack"
+		"Thruster (Planetary Class)"
+		"Systems Core (Large)"
+		"Korath Piercer" 160
+		"Korath Slicer Turret"
+		"Korath Grab-Strike"
+		"Korath Piercer Rack" 10
+		"Steering (Stellar Class)"
+		"Korath Disruptor" 3
+		"Korath Detainer" 2
+		"Security Station" 15
+		"Laser Rifle" 480
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Pug Biodefenses"
+		"Thrasher Turret"
+		"Point Defense Turret" 2
+		"Dual Sunbeam Turret" 2
+		"Thunderhead Launcher" 2
+		"Thunderhead Storage Array" 4
+		"Thunderhead Missile" 160
+		"Quantum Shield Generator"
+		"Wanderer Ramscoop" 4
+		
+	turret 17.5 -180 "Bombardment Turret"
+	turret -18 -180.5 "Korath Disruptor"
+	turret -0.5 -154.5 "Point Defense Turret"
+	gun 66.5 -159.5 "Korath Detainer"
+	gun -68 -161 "Korath Detainer"
+	gun 35 -222 "Ion Cannon"
+	gun -35 -223 "Ion Cannon"
+	turret 94 -40.5 "Point Defense Turret"
+	turret -95.5 -39.5 "Korath Slicer Turret"
+	turret -46.5 -106.5 "Dual Sunbeam Turret"
+	turret 47 -107 "Korath Disruptor"
+	gun -90.5 -128 "Finisher Pod"
+	gun 91 -128.5 "Finisher Pod"
+	turret 97.5 102.5 "Dual Sunbeam Turret"
+	turret -100 103.5 "Thrasher Turret"
+	turret -29.5 64 "Korath Grab-Strike"
+	turret 28.5 64.5 "Korath Disruptor"
+	gun 99.5 -79 "Hai Tracker Pod"
+	gun -99.5 -81 "Hai Tracker Pod"
+	gun -82 -96 "Thunderhead Launcher"
+	gun 83.5 -94.5 "Thunderhead Launcher"
+	explode "huge explosion" 20
+	explode "large explosion" 35
+	explode "medium explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion large" 1
+	
+government "Bird and Brick Association"
+	"player reputation" 1
+	"bribe" 0
+	
+ship Godzilla
+	sprite "ship/monstrosity"
+	attributes
+		category "Heavy Warship"
+		"cost" 124000000
+		"shields" 127600
+		"hull" 103790
+		"required crew" 463
+		"bunks" 487
+		"mass" 910
+		"drag" 20.7
+		"heat dissipation" .2
+		"fuel capacity" 800
+		"cargo space" 650
+		"outfit space" 1900
+		"weapon capacity" 970
+		"engine capacity" 170
+		weapon
+			"blast radius" 250
+			"shield damage" 2400
+			"hull damage" 1200
+			"hit force" 2100
+	outfits
+		"Large Repair Module" 2
+		Hyperdrive
+		"Finisher Pod" 2
+		"Bombardment Turret"
+		"Finisher Torpedo" 80
+		"Ion Cannon" 2
+		"Hai Tracker Pod" 2
+		"Tracker Storage Pod" 4
+		"Hai Tracker" 224
+		"Large Heat Shunt"
+		"LP144a Battery Pack"
+		"Thruster (Planetary Class)"
+		"Systems Core (Large)"
+		"Korath Piercer" 160
+		"Korath Slicer Turret"
+		"Korath Grab-Strike"
+		"Korath Piercer Rack" 10
+		"Steering (Stellar Class)"
+		"Korath Disruptor" 3
+		"Korath Detainer" 2
+		"Security Station" 15
+		"Laser Rifle" 480
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Pug Biodefenses"
+		"Thrasher Turret"
+		"Point Defense Turret" 2
+		"Dual Sunbeam Turret" 2
+		"Thunderhead Launcher" 2
+		"Thunderhead Storage Array" 4
+		"Thunderhead Missile" 160
+		"Quantum Shield Generator"
+		"Wanderer Ramscoop" 4
+		
+	turret 17.5 -180 "Bombardment Turret"
+	turret -18 -180.5 "Korath Disruptor"
+	turret -0.5 -154.5 "Point Defense Turret"
+	gun 66.5 -159.5 "Korath Detainer"
+	gun -68 -161 "Korath Detainer"
+	gun 35 -222 "Ion Cannon"
+	gun -35 -223 "Ion Cannon"
+	turret 94 -40.5 "Point Defense Turret"
+	turret -95.5 -39.5 "Korath Slicer Turret"
+	turret -46.5 -106.5 "Dual Sunbeam Turret"
+	turret 47 -107 "Korath Disruptor"
+	gun -90.5 -128 "Finisher Pod"
+	gun 91 -128.5 "Finisher Pod"
+	turret 97.5 102.5 "Dual Sunbeam Turret"
+	turret -100 103.5 "Thrasher Turret"
+	turret -29.5 64 "Korath Grab-Strike"
+	turret 28.5 64.5 "Korath Disruptor"
+	gun 99.5 -79 "Hai Tracker Pod"
+	gun -99.5 -81 "Hai Tracker Pod"
+	gun -82 -96 "Thunderhead Launcher"
+	gun 83.5 -94.5 "Thunderhead Launcher"
+	explode "huge explosion" 20
+	explode "large explosion" 35
+	explode "medium explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion large" 1
+	description "This is the only ship of it's kind in existance. It appears to be a single ship cobbled together from many other ships. This thing is big, bulky, and a force to be reckoned with."

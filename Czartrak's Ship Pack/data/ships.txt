@@ -1,5 +1,5 @@
 ship "Battleship"
-	sprite "ship/battleship"
+	sprite "ship/battleshipncsp"
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -9,7 +9,7 @@ ship "Battleship"
 		"shields" 25570
 		"hull" 9030
 		"required crew" 233
-		"bunks" 217
+		"bunks" 254
 		"mass" 1115
 		"drag" 18.4
 		"heat dissipation" .37
@@ -173,48 +173,6 @@ ship "Destroyer"
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "The Destroyer is built to do the job the Frigate does, except much better. Equipped with 5 heavy laser turrets and 4 torpedo tubes, this ship can dish out some decent damage."
-	
-ship "Patrol Boat"
-	sprite "ship/patroller"
-	attributes
-		category "Light Warship"
-		cost 2700000
-		bunks 9
-		"cargo space" 30
-		drag 3.1
-		"engine capacity" 90
-		"fuel capacity" 596
-		"gun ports" 2
-		"heat dissipation" 0.8
-		hull 1400
-		mass 150
-		"outfit space" 250
-		"required crew" 4
-		shields 5800
-		"turret mounts" 1
-		"weapon capacity" 100
-	outfits
-		"D14-RN Shield Generator"
-		"Outfit Scanner" 2
-		"Cargo Scanner" 2
-		Ramscoop 2
-		"A250 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Scram Drive"
-		"Fuel Pod" 2
-		"LP144a Battery Pack"
-		"RT-I Radiothermal"
-		"Beam Laser" 2
-		
-	engine -9 45
-	engine 9 45
-	gun -24 -22 "Beam Laser"
-	gun 24 -22 "Beam Laser"
-	explode "tiny explosion" 10
-	explode "small explosion" 20
-	explode "medium explosion" 15
-	"final explode" "final explosion small"
-	description "The Patrol Boat is a modified Navy Gunboat. It has been slimmed down, the original hull materials replaced with lighter (but weaker) ones, and the weapons scaled down considerably. This ship is made for speed, and for quick surveys of other ships."
 	
 ship "Sentinel"
 	sprite "ship/pointedstick_vanguard"

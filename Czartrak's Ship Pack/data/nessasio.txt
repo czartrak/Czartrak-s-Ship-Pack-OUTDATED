@@ -1,5 +1,4 @@
-
-
+#Made by Brick
 ship "Nessasio"
 	sprite "ship/navycorvette"
 	attributes
