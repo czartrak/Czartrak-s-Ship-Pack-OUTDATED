@@ -19,7 +19,6 @@ ship "Battleship" "Battleship (Mark II)"
 		"Sidewinder Missile Rack" 2
 		"Sidewinder Missile" 150
 		"Typhoon Storage Tube" 2
-	position -53.763571 -350.02229
 	engine -38 220 1
 	engine 38 220 1
 	gun -31 -200 "Sidewinder Missile Launcher"
@@ -36,3 +35,63 @@ ship "Battleship" "Battleship (Mark II)"
 	turret -48 111 "Electron Turret"
 	turret 48 -64 "Electron Turret"
 	turret 48 111 "Electron Turret"
+	
+ship Battlecruiser "Battlecruiser (Mark II)"
+	sprite ship/battlecruiser
+	attributes
+	outfits
+		Hyperdrive
+		"Outfits Expansion" 2
+		"A375 Atomic Steering"
+		"Electron Turret" 5
+		"A520 Atomic Thruster"
+		"D94-YV Shield Generator"
+		"Liquid Helium Cooler"
+		"Meteor Missile Launcher" 2
+		"Armageddon Core"
+		"Heavy Anti-Missile Turret" 2
+		"Meteor Missile" 106
+		"Water Coolant System"
+		"LP036a Battery Pack"
+		"Large Radar Jammer"
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 175
+		"Sidewinder Missile Rack" 3
+		"Meteor Missile Box" 2
+	engine -40 146 1
+	engine 40 146 1
+	gun 28 -84 "Meteor Missile Launcher"
+	gun 38 -75 "Sidewinder Missile Launcher"
+	gun -28 -84 "Sidewinder Missile Launcher"
+	gun -38 -75 "Meteor Missile Launcher"
+	turret -33 -45 "Heavy Anti-Missile Turret"
+	turret 33 -45 "Heavy Anti-Missile Turret"
+	turret -0 0 "Electron Turret"
+	turret 0 44 "Electron Turret"
+	turret 0 80 "Electron Turret"
+	turret 28 80 "Electron Turret"
+	turret -28 80 "Electron Turret"
+	
+ship Destroyer "Destroyer (Mark II)"
+	outfits
+		Hyperdrive
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Electron Turret" 5
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"Breeder Reactor"
+		"D41-HY Shield Generator"
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 100
+	engine -26.5 116 1
+	engine 26.5 116 1
+	gun 24.5 -53.5
+	gun 29 -49 "Sidewinder Missile Launcher"
+	gun -25.5 -53 "Sidewinder Missile Launcher"
+	gun -30 -49
+	turret -0 -30 "Electron Turret"
+	turret 0 -47 "Electron Turret"
+	turret -0 -6.5 "Electron Turret"
+	turret -28 47 "Electron Turret"
+	turret 28 47 "Electron Turret"

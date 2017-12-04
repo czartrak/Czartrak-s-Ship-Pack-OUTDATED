@@ -1,4 +1,4 @@
-#Made by Brick
+
 ship "Viscount"
 	sprite "ship/viscount"
 	attributes

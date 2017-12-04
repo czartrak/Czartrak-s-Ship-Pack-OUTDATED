@@ -9,12 +9,11 @@ fleet "Large Republic"
 		"Carrier"
 		"Lance" 4
 		"Combat Drone" 6
-		"Cruiser"
-		"Combat Drone" 4
-		"Frigate" 2
+		"Battlecruiser" 2
 		"Rainmaker" 2
 		"Gunboat" 2
 		"Battleship"
+		"Destroyer" 3
 	variant 3
 		"Cruiser"
 		"Combat Drone" 4
@@ -26,6 +25,11 @@ fleet "Large Republic"
 		"Patrol Boat"2
 	variant 7
 		"Nessasio" 2
+	variant 4
+		"Battlecruiser"
+		"Destroyer" 2
+	variant 5
+	"Destroyer" 3
 		
 fleet "Large Syndicate"
 	government "Syndicate"
@@ -110,6 +114,9 @@ fleet "Large Oathkeeper"
 		"Frigate" 4
 		"Rainmaker" 6
 		"Gunboat" 4
+	variant 11
+		"Battlecruiser" 2
+		"Destroyer" 3
 
 fleet "Large Republic"
 	variant 10
@@ -123,5 +130,8 @@ fleet "Large Republic"
 		"Frigate" 4
 		"Rainmaker" 6
 		"Gunboat" 4
+	variant 11
+		"Battlecruiser" 2
+		"Destroyer" 3
 
 

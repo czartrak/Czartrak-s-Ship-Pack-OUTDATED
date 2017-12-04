@@ -1,7 +1,7 @@
 Welcome to Czartrak's Ship Pack v0.6
 
-This mod add various different ships to the game with e intention of improving factions and making gameplay more challenging.
+This mod add various different ships to the game with the intention of improving factions and making gameplay more challenging.
 
-I hope you enjoy the ships I have now, and everything else to come
+I hope you enjoy the ships I have now, and everything else to come!
 
-Thanks to Steam and Discord user Brick for the Nessasio and Viscount
+Thanks to Steam, GitHub, and Discord user Brick for all of his help in the creation of this mod

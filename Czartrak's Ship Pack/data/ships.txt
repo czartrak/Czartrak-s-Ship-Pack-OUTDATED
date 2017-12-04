@@ -9,7 +9,7 @@ ship "Battleship"
 		"shields" 25570
 		"hull" 9030
 		"required crew" 233
-		"bunks" 254
+		"bunks" 242
 		"mass" 1115
 		"drag" 18.4
 		"heat dissipation" .37
@@ -80,9 +80,9 @@ ship "Battlecruiser"
 		"heat dissipation" .31
 		"fuel capacity" 600
 		"cargo space" 50
-		"outfit space" 3000
-		"weapon capacity" 3000
-		"engine capacity" 3000
+		"outfit space" 800
+		"weapon capacity" 385
+		"engine capacity" 140
 		weapon
 			"blast radius" 270
 			"shield damage" 2950
@@ -103,16 +103,19 @@ ship "Battlecruiser"
 		"X4200 Ion Steering"
 		"Hyperdrive"
 		
-	engine -29 156
-	engine 29 156
-	gun -31 -63 "Particle Cannon"
-	gun 31 -63 "Particle Cannon"
-	gun -41 -52 "Particle Cannon"
-	gun 41 -52 "Particle Cannon"
-	turret 0 -40 "Heavy Laser Turret"
-	turret -33 -19 "Heavy Laser Turret"
-	turret 33 -19 "Heavy Laser Turret"
-	turret 0 0 "Heavy Anti-Missile Turret"
+	gun 28 -84
+	gun 38 -75
+	gun -28 -84
+	gun -38 -75
+	turret -33 -45
+	turret 33 -45
+	turret -0 0
+	turret 0 44
+	turret 0 80
+	turret 28 80
+	turret -28 80
+	engine -40 146
+	engine 40 146
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -137,17 +140,17 @@ ship "Destroyer"
 		"heat dissipation" .5
 		"fuel capacity" 500
 		"cargo space" 20
-		"outfit space" 3000
-		"weapon capacity" 3000
-		"engine capacity" 3000
+		"outfit space" 565
+		"weapon capacity" 320
+		"engine capacity" 100
 		weapon
 			"blast radius" 100
 			"shield damage" 1000
 			"hull damage" 500
 			"hit force" 1500
-	outfit
+	outfits
 		"Torpedo Launcher" 4
-		"Torpedo" 60
+		"Torpedo" 120
 		"Heavy Laser Turret" 5
 		
 		"NT-200 Nucleovoltaic"
@@ -158,21 +161,64 @@ ship "Destroyer"
 		"X3200 Ion Steering"
 		"Hyperdrive"
 		
-	engine -26 92
-	engine 26 92
-	gun -10 -83 "Particle Cannon"
-	gun 10 -83 "Particle Cannon"
-	gun -10 -83 "Torpedo Launcher"
-	gun 10 -83 "Torpedo Launcher"
-	turret 0 -37 "Blaster Turret"
-	turret -12 -12 "Blaster Turret"
-	turret 12 -12 "Blaster Turret"
+	gun 24.5 -53.5
+	gun 29 -49
+	gun -25.5 -53
+	gun -30 -49
+	turret -0 -30
+	turret 0 -47
+	turret -0 -6.5
+	turret -28 47
+	turret 28 47
+	engine -26.5 116
+	engine 26.5 116
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "The Destroyer is built to do the job the Frigate does, except much better. Equipped with 5 heavy laser turrets and 4 torpedo tubes, this ship can dish out some decent damage."
+	
+ship "Patrol Boat"
+	sprite "ship/patroller"
+	attributes
+		category "Light Warship"
+		cost 2700000
+		bunks 9
+		"cargo space" 30
+		drag 3.1
+		"engine capacity" 90
+		"fuel capacity" 596
+		"gun ports" 2
+		"heat dissipation" 0.8
+		hull 1400
+		mass 150
+		"outfit space" 265
+		"required crew" 4
+		shields 5800
+		"weapon capacity" 40
+	outfits
+		"D14-RN Shield Generator"
+		"Outfit Scanner" 2
+		"Cargo Scanner" 2
+		Ramscoop 2
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Scram Drive"
+		"Fuel Pod" 2
+		"LP144a Battery Pack"
+		"RT-I Radiothermal"
+		"Beam Laser" 2
+		
+	engine -9 45
+	engine 9 45
+	gun -24 -22 "Beam Laser"
+	gun 24 -22 "Beam Laser"
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "The Patrol Boat is a modified Navy Gunboat. It has been slimmed down, the original hull materials replaced with lighter (but weaker) ones, and the weapons scaled down considerably. This ship is made for speed, and for quick surveys of other ships."
 	
 ship "Sentinel"
 	sprite "ship/pointedstick_vanguard"
