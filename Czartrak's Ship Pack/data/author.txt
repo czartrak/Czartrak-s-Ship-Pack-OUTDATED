@@ -65,27 +65,29 @@ person "A Bird and a Brick"
 		"Quantum Shield Generator"
 		"Wanderer Ramscoop" 4
 		
-	turret 17.5 -180 "Bombardment Turret"
-	turret -18 -180.5 "Korath Disruptor"
-	turret -0.5 -154.5 "Point Defense Turret"
-	gun 66.5 -159.5 "Korath Detainer"
-	gun -68 -161 "Korath Detainer"
-	gun 35 -222 "Ion Cannon"
-	gun -35 -223 "Ion Cannon"
-	turret 94 -40.5 "Point Defense Turret"
-	turret -95.5 -39.5 "Korath Slicer Turret"
-	turret -46.5 -106.5 "Dual Sunbeam Turret"
-	turret 47 -107 "Korath Disruptor"
-	gun -90.5 -128 "Finisher Pod"
-	gun 91 -128.5 "Finisher Pod"
-	turret 97.5 102.5 "Dual Sunbeam Turret"
-	turret -100 103.5 "Thrasher Turret"
-	turret -29.5 64 "Korath Grab-Strike"
-	turret 28.5 64.5 "Korath Disruptor"
-	gun 99.5 -79 "Hai Tracker Pod"
-	gun -99.5 -81 "Hai Tracker Pod"
-	gun -82 -96 "Thunderhead Launcher"
-	gun 83.5 -94.5 "Thunderhead Launcher"
+	turret 45 -79
+	turret -45 -79.5
+	turret 64.5 -34
+	turret -63.5 -34
+	turret 79 153
+	turret -78.5 154
+	turret 87 -73
+	turret -91 -55
+	turret 72 66
+	turret -74 65
+	gun 0 -201
+	gun 14 -195
+	gun -13.5 -195
+	gun 21.5 -169.5
+	gun -21 -170
+	gun 31 -151
+	gun -30.5 -153
+	gun 61.5 -141
+	gun -67 -123
+	engine -25 192
+	engine 23.5 192.5
+	engine 101.5 34
+	engine -101.5 34.5
 	explode "huge explosion" 20
 	explode "large explosion" 35
 	explode "medium explosion" 25
@@ -153,27 +155,29 @@ ship Godzilla
 		"Quantum Shield Generator"
 		"Wanderer Ramscoop" 4
 		
-	turret 17.5 -180 "Bombardment Turret"
-	turret -18 -180.5 "Korath Disruptor"
-	turret -0.5 -154.5 "Point Defense Turret"
-	gun 66.5 -159.5 "Korath Detainer"
-	gun -68 -161 "Korath Detainer"
-	gun 35 -222 "Ion Cannon"
-	gun -35 -223 "Ion Cannon"
-	turret 94 -40.5 "Point Defense Turret"
-	turret -95.5 -39.5 "Korath Slicer Turret"
-	turret -46.5 -106.5 "Dual Sunbeam Turret"
-	turret 47 -107 "Korath Disruptor"
-	gun -90.5 -128 "Finisher Pod"
-	gun 91 -128.5 "Finisher Pod"
-	turret 97.5 102.5 "Dual Sunbeam Turret"
-	turret -100 103.5 "Thrasher Turret"
-	turret -29.5 64 "Korath Grab-Strike"
-	turret 28.5 64.5 "Korath Disruptor"
-	gun 99.5 -79 "Hai Tracker Pod"
-	gun -99.5 -81 "Hai Tracker Pod"
-	gun -82 -96 "Thunderhead Launcher"
-	gun 83.5 -94.5 "Thunderhead Launcher"
+	turret 45 -79
+	turret -45 -79.5
+	turret 64.5 -34
+	turret -63.5 -34
+	turret 79 153
+	turret -78.5 154
+	turret 87 -73
+	turret -91 -55
+	turret 72 66
+	turret -74 65
+	gun 0 -201
+	gun 14 -195
+	gun -13.5 -195
+	gun 21.5 -169.5
+	gun -21 -170
+	gun 31 -151
+	gun -30.5 -153
+	gun 61.5 -141
+	gun -67 -123
+	engine -25 192
+	engine 23.5 192.5
+	engine 101.5 34
+	engine -101.5 34.5
 	explode "huge explosion" 20
 	explode "large explosion" 35
 	explode "medium explosion" 25

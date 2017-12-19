@@ -17,3 +17,6 @@ shipyard modships
 	"Destroyer"
 	"Navy Freighter"
 	"Sentinel"
+	"Pug Zambor"
+	"Pug Mazdar"
+	"Pug Embor"
