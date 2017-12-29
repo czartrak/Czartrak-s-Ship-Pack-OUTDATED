@@ -11,16 +11,19 @@ event "navy using mark ii ships"
 			"Gunboat (Mark II)" 2
 			"Battleship (Mark II)"
 		add variant 5
-			"Nessasio Mark II"
-			add variant 7
-				"Battlecruiser (Mark II)"
-				"Destroyer (Mark II)" 2
-			add variant 8
-				"Battleship (Mark II)"
-				"Battlecruiser (Mark II)" 2
-				"Destroyer (Mark II)"
-			add variant 9
-				"Destroyer (Mark II)" 3
+			"Nesasio Mark II"
+		add variant 7
+			"Battlecruiser (Mark II)"
+			"Destroyer (Mark II)" 2
+		add variant 8
+			"Battleship (Mark II)"
+			"Battlecruiser (Mark II)" 2
+			"Destroyer (Mark II)"
+		add variant 9
+			"Destroyer (Mark II)" 3
+		add variant 1
+			"Battleship (Mark II)" 2
+			"Battlecruiser (Mark II)" 3
 				
 
 event "southern carriers 1"

@@ -419,15 +419,15 @@ ship "Pug Embor"
 	attributes
 		category "Heavy Warship"
 		"cost" 11000000
-		"shields" 11000
-		"hull" 2500
+		"shields" 12600
+		"hull" 2700
 		"required crew" 61
 		"bunks" 87
 		"mass" 940
 		"drag" 9.8
 		"heat dissipation" .5
 		"fuel capacity" 600
-		"cargo space" 30
+		"cargo space" 70
 		"outfit space" 560
 		"weapon capacity" 309
 		"engine capacity" 148
@@ -456,10 +456,8 @@ ship "Pug Embor"
 	turret 0 -50 "Pug Zapper Turret"
 	turret -15 -35 "Pug Anti-Missile"
 	turret 15 -35 "Pug Anti-Missile"
-	fighter 71 -40.5 under
-	fighter -71 -40.5 under
-	fighter -71 90.5 under
-	fighter 71 90.5 under
+	fighter 71 -32.5 under
+	fighter -71 -32.5 under
 	explode "small explosion" 25
 	explode "medium explosion" 30
 	explode "large explosion" 20

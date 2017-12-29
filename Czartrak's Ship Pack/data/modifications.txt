@@ -19,4 +19,4 @@ shipyard modships
 	"Sentinel"
 	"Pug Zambor"
 	"Pug Mazdar"
-	"Pug Embor"
+	"Pug Emborbor"

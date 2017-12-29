@@ -1,6 +1,4 @@
-
-
-ship "Nessasio"
+ship "Nesasio"
 	sprite "ship/navycorvette"
 	attributes
 		category "Medium Warship"

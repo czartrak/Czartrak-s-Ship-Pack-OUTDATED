@@ -1,4 +1,4 @@
-ship "Nessasio" "Nessasio Mark II"
+ship "Nesasio" "Nesasio Mark II"
 	outfits
 		"Outfits Expansion" 2
 		Hyperdrive
