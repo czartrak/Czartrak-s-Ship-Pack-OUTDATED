@@ -1,0 +1,5 @@
+tip "cryo pod:"
+	`Redundant.`
+	
+tip "cryo bay:"
+	`Redundant.`

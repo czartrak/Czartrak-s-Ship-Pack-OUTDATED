@@ -1,10 +1,4 @@
 fleet "Large Republic"
-	government "Republic"
-	names "republic capital"
-	fighters "republic fighter"
-	cargo 0
-	personality
-		heroic opportunistic
 	variant 1
 		"Carrier"
 		"Lance" 4
@@ -30,14 +24,11 @@ fleet "Large Republic"
 		"Destroyer" 2
 	variant 5
 		"Destroyer" 3
+	variant 1
+		"Battleship" 2
+		"Battlecruiser" 3
 		
 fleet "Large Syndicate"
-	government "Syndicate"
-	names "syndicate capital"
-	fighters "syndicate fighter"
-	cargo 2
-	personality
-		heroic
 	variant 1
 		"Vanguard"
 		"Sentinel"
@@ -49,11 +40,6 @@ fleet "Large Syndicate"
 		"Sentinel" 2
 		
 fleet "Small Republic"
-	government "Republic"
-	names "republic small"
-	cargo 0
-	personality
-		heroic opportunistic
 	variant 5
 		"Gunboat"
 		"Rainmaker"
@@ -135,11 +121,6 @@ fleet "Large Republic"
 		"Destroyer" 3
 		
 fleet "Small Pug"
-	government "Pug"
-	names "pug"
-	cargo 1
-	personality
-		heroic
 	variant 2
 		"Pug Mazdar"
 		"Pug Zambor"
@@ -149,11 +130,6 @@ fleet "Small Pug"
 		"Pug Zibruka"
 
 fleet "Large Pug"
-	government "Pug"
-	names "pug"
-	cargo 1
-	personality
-		heroic
 	variant 1
 		"Pug Mazdar"
 		"Pug Zambor"
@@ -174,5 +150,43 @@ fleet "Large Pug"
 		"Pug Embor" 2
 		"Pug Enfolta" 2
 		"Pug Zambor" 4
+		
+fleet "Small Free Worlds"
+	variant 1
+		"Qrow" 2
+	variant 1
+		"Qrow"
+		"Argosy" 2
+
+fleet "Small Independent"
+	add variant 1
+		"Qrow" 2
+		
+fleet "Large Free Worlds"
+	variant 2
+		"Qrow" 2
+		"Bastion"
+	variant 2
+		"Qrow" 2
+		"Argosy"
+		"Bastion"
+	variant 1
+		"Qrow" 2
+		"Falcon"
+		
+fleet "Korath Home"
+	variant 12
+		"Korath Seedship"
+	variant 12
+		"Korath Seedship" 2
+
+
+fleet "Kor Efret Home"
+	personality
+		timid
+	variant
+		"Korath Seedship"
+	variant
+		"Korath Seedship" 2
 
 

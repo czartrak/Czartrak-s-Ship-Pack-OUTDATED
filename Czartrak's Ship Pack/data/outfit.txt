@@ -1,0 +1,20 @@
+outfit "AI Module"
+	category "Systems"
+	cost 400000
+	thumbnail "outfit/reasoning node"
+	"mass" 3
+	"outfit space" -3
+	"automaton" 1
+	description "The AI Module is the principal component in the operation or Korath Seedships. It allows the autonamous operation of any ship it's installed in."
+	
+outfit "Cryogenics Pod"
+	category "Systems"
+	cost 500000
+	thumbnail "outfit/small bunk room"
+	"mass" 1
+	"outfit space" -1
+	"bunks" 1
+	"cryo bay" 1
+	"cryo pod" -1
+	unplunderable 1
+	description "A Cryogenics Pod is a device used for the long term transportation of people. It can safely freeze an occupant and keep them alive on long voyages."	

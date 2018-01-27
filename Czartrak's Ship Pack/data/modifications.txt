@@ -20,3 +20,8 @@ shipyard modships
 	"Pug Zambor"
 	"Pug Mazdar"
 	"Pug Emborbor"
+	"Korath Seedship"
+	"Qrow"
+	
+outfitter modoutfits
+	"Cryogenics Pod"

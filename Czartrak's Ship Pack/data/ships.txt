@@ -464,3 +464,110 @@ ship "Pug Embor"
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
 	description "This ship is a modifed Maboro. The Pug made this ship to carry up to 4 Zambor fighters."
+	
+ship "Korath Seedship"
+	sprite "ship/seedship"
+	attributes
+		category "Transport"
+		"cost" 16570000
+		"shields" 27000
+		"hull" 9000
+		"required crew" 5
+		"bunks" 5
+		"mass" 720
+		"drag" 12
+		"heat dissipation" .5
+		"cryo bay" -500
+		"cryo pod" 500
+		"ramscoop" 2.5
+		"outfit scan power" 20
+		"outfit scan speed" 1.5
+		"asteroid scan power" 40
+		"tactical scan power" 20
+		"atmosphere scan" 150
+		"fuel capacity" 600
+		"cargo space" 250
+		"outfit space" 980
+		"weapon capacity" 60
+		"engine capacity" 130
+		weapon
+			"blast radius" 250
+			"shield damage" 3600
+			"hull damage" 1800
+			"hit force" 5400
+	outfits
+		"Korath Warder" 2
+		
+		"Triple Plasma Core"
+		"Systems Core (Medium)"
+		"Large Heat Shunt" 2
+		"Small Heat Shunt"
+		"Korath Repeater Rifle" 5
+		"Cryogenics Pod" 500
+		
+		"Thruster (Planetary Class)"
+		"Steering (Planetary Class)"
+		"Hyperdrive"
+	
+	engine -20 130
+	engine 20 130
+	turret -16 25 "Korath Warder"
+	turret 16 25 "Korath Warder"
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Korath Seedship was originally built as a colonization vessel. It is controlled mainly by AI  but has bunk space enough for a crew of 5. The things that make this ship special are the integreted scanners, ramscoop systems, and a Cryogenics Bay. The Cryo Bay can hold up to 500 colonists."
+	description "Korathi colonization missions have slowed to a near halt, so nowadays the remaining Seedships are used as makeshift reconnasaince vessels and dropships."
+	description "The advanced integrated scanner package allows the scanning of planets, asteroids, and potential threats."
+	
+ship "Qrow"
+	sprite "ship/qrow"
+	attributes
+		category "Light Warship"
+		"cost" 3530000
+		"shields" 6200
+		"hull" 1200
+		"required crew" 7
+		"bunks" 13
+		"mass" 245
+		"drag" 5.2
+		"heat dissipation" .5
+		"fuel capacity" 600
+		"cargo space" 15
+		"outfit space" 380
+		"weapon capacity" 165
+		"engine capacity" 110
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Heavy Laser Turret" 3
+		"Heavy Laser" 2
+		
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		
+	engine -40 55
+	engine 40 55
+	gun 13 -59 "Heavy Laser"
+	gun -13 -59 "Heavy Laser"
+	turret -18 0 "Heavy Laser Turret"
+	turret 18 0 "Heavy Laser Turret"
+	turret 0 5 "Heavy Laser Turret"
+	explode "tiny explosion" 15
+	explode "small explosion" 34
+	explode "medium explosion" 18
+	explode "large explosion" 2
+	"final explode" "final explosion small"
+	description "The Qrow is a modifed Tarazed Blackbird. It was apparently created by a rougue Tarazed engineer who was on the verge of being fired. Apparently he liked watching anime more than doing his job."
