@@ -1,8 +1,9 @@
 
 shipyard "Navy Advanced"
-	"Viscount"
 	"Battleship"
 	"Navy Freighter"
+	"Battlecruiser"
 	
 shipyard "Navy Basic"
 	"Patrol Boat"
+	"Nesasio"

@@ -1,6 +1,5 @@
-#NOTE TO SELF!!!
-#Never EVER close this file! You don't know how to unhide!
-#P.S. if you somehow found this and are reading this RIGHT NOW, I was talking to myself. You may know how to unhide stuff.
+#This file will be expanded. There are a possible 2 person ships coming in the future
+
 
 person "A Bird and a Brick"
 	government "Bird and Brick Association"

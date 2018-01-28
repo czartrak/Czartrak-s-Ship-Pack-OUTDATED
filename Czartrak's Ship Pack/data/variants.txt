@@ -95,3 +95,93 @@ ship Destroyer "Destroyer (Mark II)"
 	turret -0 -6.5 "Electron Turret"
 	turret -28 47 "Electron Turret"
 	turret 28 47 "Electron Turret"
+	
+
+ship "Viscount""Viscount (Mark II)"
+	outfits
+		Hyperdrive
+		"A860 Atomic Thruster"
+		"A250 Atomic Thruster"
+		"Electron Turret" 4
+		"A255 Atomic Steering"
+		"A525 Atomic Steering" 2
+		"Typhoon Torpedo" 120
+		"Typhoon Launcher" 4
+		"D94-YV Shield Generator" 2
+		"Liquid Nitrogen Cooler"
+		Ramscoop 4
+		"LP576a Battery Pack"
+		"Heavy Anti-Missile Turret" 4
+		"Liquid Helium Cooler" 3
+		"Armageddon Core" 2
+		"Fragmentation Grenades" 220
+		"Large Radar Jammer"
+		"Security Station" 4
+		"Laser Rifle" 320
+		
+ship "Nesasio" "Nesasio Mark II"
+	outfits
+		"Outfits Expansion" 2
+		Hyperdrive
+		"A375 Atomic Steering"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"A120 Atomic Thruster"
+		"Electron Beam" 6
+		"Electron Turret"
+		"Fuel Pod" 2
+		"Fusion Reactor"
+		Ramscoop
+		"D67-TM Shield Generator"
+		"Liquid Helium Cooler"
+		"Water Coolant System"
+		"LP072a Battery Pack"
+		
+ship "Sentinel" "Sentinel (Plasma)"
+	outfits
+		"Plasma Cannon" 11
+		"Anti-Missile Turret" 
+		"Fusion Reactor"
+		"KP-6 Photovoltaic Array" 4
+		"LP144a Battery Pack"
+		"S-970 Regenerator" 
+		"S-270 Regenerator"
+		"Liquid Helium Cooler" 
+		"Fuel Pod" 
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Ionic Afterburner"
+		"Hyperdrive"
+		
+ship "Sentinel" "Sentinel (Particle)"
+	outfits
+		Hyperdrive
+		"A860 Atomic Thruster"
+		"A125 Atomic Steering"
+		"A525 Atomic Steering"
+		Torpedo 120
+		"LP144a Battery Pack"
+		"Particle Cannon" 7
+		"Torpedo Launcher" 4
+		"KP-6 Photovoltaic Array"
+		"Liquid Helium Cooler"
+		"S-970 Regenerator"
+		"Small Radar Jammer"
+		"Armageddon Core"
+		"S-270 Regenerator"
+		"Laser Rifle" 60
+		"Security Station" 2
+		"Water Coolant System"
+		"Anti-Missile Turret"
+	gun 0 -132 "Particle Cannon"
+	gun 0 -132 "Particle Cannon"
+	gun 0 -132 "Particle Cannon"
+	gun -22 -122 "Particle Cannon"
+	gun -22 -122 "Particle Cannon"
+	gun 22 -122 "Particle Cannon"
+	gun 22 -122 "Particle Cannon"
+	gun -21 -45 "Torpedo Launcher"
+	gun 21 -45 "Torpedo Launcher"
+	gun -31 -45 "Torpedo Launcher"
+	gun 31 -45 "Torpedo Launcher"
+	turret 0 40 "Anti-Missile Turret"

@@ -1,7 +1,7 @@
-Welcome to Czartrak's Ship Pack v1.3
+Welcome to Czartrak's Ship Pack v1.4
 
 This mod add various different ships to the game with the intention of improving factions and making gameplay more challenging.
 
 I hope you enjoy the ships I have now, and everything else to come!
 
-Thanks to Steam, GitHub, and Discord user Brick for all of his help in the creation of this mod
+Thank you Brick and geojack for your help in the development of this mod!
