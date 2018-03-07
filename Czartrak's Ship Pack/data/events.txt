@@ -152,3 +152,46 @@ mission "Southern Carriers Mod Trigger"
 		event "southern mod carriers 3" 40
 		event "southern mod carriers 4" 60
 		fail
+		
+mission "the navy dread"
+	landing
+	invisible
+	to offer
+		has "FW Dreadnoughts Ready: offered"
+	source
+		government "Free Worlds"
+	on offer
+		event "add navy dreads" 20 
+		conversation
+			scene "scene/ndread"
+			`You decide to drop by one of the local Free Worlds military meetings.`
+			`	The majority of the meeting is nothing special, mostly updates on fleet movements and such. The one point that catches your attention is a new navy ship.`
+			`	An image of the ship is projected on the wall. The ship is smaller than a carrier, but packs some decent firepower. It would seem that the navy has made their own Dreadnoughts.`
+				
+		fail
+
+event "navy dreads produced"
+	shipyard "Navy Advanced"
+		"Navy Dreadnought"
+	
+mission "navy dreads"
+	landing
+	invisible
+	to offer
+		has "event: syndicate tech available"
+	source
+		government "Free Worlds"
+	on offer
+		event "navy dreads produced"
+		fail
+		
+event "add navy dreads"
+	fleet "Large Republix"
+		add variant 2
+			"Navy Dreadnought" 2
+		add variant 1
+			"Navy Dreadnought"
+			"Cruiser (Mark II)" 2
+		add variant 1
+			"Navy Dreadnought" 2 
+			"Battleship (Mark II)"

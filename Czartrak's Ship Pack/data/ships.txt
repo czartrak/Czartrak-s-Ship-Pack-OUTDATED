@@ -946,3 +946,65 @@ ship "Viscount"
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
 	description "The Viscount is the Republics premier flagship and costs more than a large fleet and is only given to those who are considered to be vital to humanity and have been given the highest levels of clearence by the government"
+	
+ship "Navy Dreadnought"
+	sprite "ship/ndread"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Navy
+			Cruiser
+		"cost" 14700000
+		"shields" 19100
+		"hull" 7350
+		"required crew" 134
+		"bunks" 153
+		"mass" 720
+		"drag" 13.4
+		"heat dissipation" .31
+		"fuel capacity" 500
+		"cargo space" 50
+		"outfit space" 865
+		"weapon capacity" 390
+		"engine capacity" 155
+		weapon
+			"blast radius" 270
+			"shield damage" 2950
+			"hull damage" 1500
+			"hit force" 4200
+	outfits
+		"Sidewinder Missile Launcher" 4
+		"Electron Turret" 6
+		"Sidewinder Missile" 200
+		
+		"Armageddon Core"
+		"LP144a Battery Pack"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"D23-QP Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		
+	turret 39.5 -51.5 "Electron Turret"
+	turret -39.5 -51.5 "Electron Turret"
+	turret -38.5 7.5 "Electron Turret"
+	turret 38.5 7.5 "Electron Turret"
+	turret 0 44.5 "Electron Turret"
+	turret 0 -44.5 "Electron Turret"
+	gun -23.5 -165.5
+	gun 23 -166
+	gun 15 -173
+	gun -15.5 -173
+	engine -30 200
+	engine 30 200
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Navy Dreadnought is a very recent model navy ship, built to compete with the Free World's new Dreadnoughts. This ship carries 6 offensive turrets and 4 Sidewinder launchers."

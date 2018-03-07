@@ -175,18 +175,18 @@ fleet "Large Free Worlds"
 		"Falcon"
 		
 fleet "Korath Home"
-	variant 12
+	add variant 12
 		"Korath Seedship"
-	variant 12
+	add variant 12
 		"Korath Seedship" 2
 
 
 fleet "Kor Efret Home"
 	personality
 		timid
-	variant
+	add variant
 		"Korath Seedship"
-	variant
+	add variant
 		"Korath Seedship" 2
 
 
